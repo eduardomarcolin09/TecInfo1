@@ -1,0 +1,85 @@
+| Entra e Saída (input / output)
+
+* Funções de entrada e Saída
+
+-> Entrada
+    leia()
+
+-> Saída
+    escreva()
+
+--- Exemplos
+
+    cadeia nome }
+                 } Entrada
+    leia (nome) }
+
+    cadeia nome                }
+                                } Saída
+    escreva("Escreva seu nome")}
+
+Juntando..
+
+    Cadeia nome
+    escreva("Escreva seu nome")
+    leia(nome)
+
+* Exercícios
+
+a) Crie um algoritmo que calcule o troco de uma venda. O usuário deve fornecer o valor da
+compra e o montante recebido do cliente
+
+    real recebido
+    real troco
+    real compra
+    leia(recebido)
+    leia(compra)
+    escreva "troco igual a", recebido - compra
+
+b) Crie um algoritmo que peça ao usuário para informar os seguintes dados e, em seguida,
+imprima-os na tela: nome, endereço, telefone e profissão
+
+    cadeia nomes
+    cadeia endereços
+    cadeia telefones
+    cadeia profissoes
+    escreva("Digite seu nome")
+    leia(nomes)
+    escreva("Digite seu endereço")
+    leia(endereços)
+    escreva("Digite seu telefone")
+    leia(telefones)
+    escreva("Digite sua profissão")
+    leia(profissoes)
+    escreva(nomes)
+    escreva(endereços)
+    escreva(telefones)
+    escreva(profissoes)
+
+c) Crie um algoritmo que solicite o preço de 5 produto e, em seguida, apresente o total da compra
+
+    real p1,p2,p3,p4,p5
+    escreva("Digite o preço do produto 1")
+    leia(p1)
+    e assim vai..
+    escreva(p1+p2+p3+p4+p5)
+
+d) Faça um algoritmo que receba a altura e largura
+
+    real altura, largura
+    escreva("Digite a altura")
+    leia(altura)
+    escreva("Digite a largura")
+    leia(largura)
+    escreva(altura*largura)
+
+e) Construa um algoritmo que leia um valor númerico inteiro e apresente o valor antecessor e o 
+sucessor
+
+    inteiro numero
+    escreva("Digite o número para saber seu sucessor e antecessor")
+    leia(numero)
+    escreva("O antecessor é", numero-1)
+    escreva("O sucessor é", numero+1)
+
+// Tinha mais 3, mas mt mão digitar mais

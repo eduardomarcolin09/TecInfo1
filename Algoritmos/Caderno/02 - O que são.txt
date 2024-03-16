@@ -1,0 +1,37 @@
+| O que são?
+
+"Um algoritmo é uma sequência de raciocínios, instruções ou operações para alcançar um objetivo, sendo necessário que os 
+passos sejam finitos e poperados sistematicamentes"
+
+--- Alguns exemplos que o professor deu:
+
+[
+    Trocar o pneu de um carro;
+    Preparar um café;
+    Trocar uma lâmpada;
+    Sacar dinheiro em um caixa;
+]
+
+--- Exercício: Tentar fazer passo a passo de dois exemplos acima
+
+-> Preparo do café
+
+01 - Pegar a chaleira, encher de água e coloca-la para esquentar no fogão por 5 minutos;
+02 - Pegar a xícara;
+03 - Pegar uma colher e com ela, pegar 3 colheres de café e de açucar e por na xícara;
+04 - Desligar o fogão, pegar a chaleira e colocar a água na xícara;
+05 - Mexer com a colher e pronto;
+
+-> Trocar um pneu
+
+01 - Abrir porta-malas;
+02 - Pegar ferramentas;
+04 - Erguer o carro com o macaco;
+05 - Retirar o pneu;
+06 - Pegar estepe (onde estiver);
+07 - Posicionar estepe no local;
+08 - Parafusar o estepe;
+09 - Baixar o carro;
+10 - Guardar o pneu furado;
+11 - Guardar Ferramentas;
+12 - Fechar o porta-malas

@@ -1,0 +1,25 @@
+| Estruturas de Controle (Condicionais)
+
+* Se 
+* Senão (quando existir, sempre por último)
+* Senão e Se
+
+--- Exemplo: Encher uma caixa d' água
+
+1 - Ir até a caixa d' água;
+2 - Abrir a tampa da caixa;
+3 - SE a caixa estiver cheia
+    feche a tampa e vá embora
+    SENAO,
+    abra a torneira para encher a caixa;
+
+--- Algumas variações:
+
+* Se, Se Senão, Se Senão e Se, Se Senão e Se Senão
+
+--- Exemplo 01
+
+1 - SE 2>1
+2 - Escreva "2 maior que 1"
+3 - SENÃO
+4 - Escreva "2 não é maior que 1"

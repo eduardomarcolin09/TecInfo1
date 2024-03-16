@@ -1,0 +1,103 @@
+| Tipos de Dados
+
+-> Dados: são um valor ou conjunto de valores
+
+* Inteiro (números inteiros)
+
+--- Exemplos
+
+    3,7,10,-5,0,100
+
+Para armazenar um inteiro na memória
+
+    inteiro nome_da_variavel
+    inteiro idade 
+    idade = 10
+
+* Real (números decimais ou "quebrados")
+
+--- Exemplos
+
+    4.0, 7.1, -9.5, 3.141592659, -0.1, 9.99
+
+Para armazenar um real na memória
+
+    real nome_da_variavel
+    real tanque_de_combustível
+
+OBS: os números reais são representados por "." e não vírgula(na computação),
+por causa do sistema americano
+
+* Caracter (representando um único caractere, seja alfanúmerico ou especial)
+
+--- Exemplos
+
+    'a','b','m','@','i','9'
+
+Para armazenar um caracter na memória
+
+    caracter nome_da_variavel
+    caracter axyz
+    caracter abacate
+
+OBS: SEMPRE representados entre aspas simples, '5' NÃO é 5
+
+* Cadeia (representa uma sequência finita de caracteres)
+
+--- Exemplos
+
+    "Palavra", "Uma informação", "Vira-lata caramelo"
+
+Para armazenar uma cadeia na memória
+
+    cadeia nome_da_variavel
+    cadeia meu_texto
+
+OBS: SEMPRE declarados entre aspas duplas
+
+* Lógico (representa valores lógicos. Existem apenas dois valores possíveis)
+
+--- Exemplos
+
+    verdadeiro, falso
+
+Para armazenar um lógico na memória
+
+    logico nome_da_variavel
+    logico ligado
+    logico pronto
+
+OBS: NÃO se usa aspas
+
+| Exercícios
+
+01 - Classifique os seguintes valores de acordo com o tipo de dado 
+
+a) 0 = inteiro
+b) -5 = inteiro
+c) falso = lógico
+d) "Que belo dia" = cadeia
+e) 'j' = caracter
+f) 3.3 = real
+g) "Usuário ou senha incorretas" = cadeia
+h) "Verdadeiro" = cadeia
+i) 3.14 = real
+j) '%' = caracter
+k) "9.0" = cadeia
+l) -1.5 = real
+m) 's' = caracter
+
+02 - Identifique qual o melhor tipo de dado para armazenar cada uma das seguintes
+informações:
+
+a) Nome completo = cadeia
+b) Idade = inteiro
+c) Telefone = inteiro e/ou cadeia
+d) Estado Civil = cadeia e/ou caracter
+e) CPF(somente números) = inteiro
+f) CPF(com pontuação) = cadeia
+g) Valor de uma mensalidade = real
+h) Gostaria de receber notícias sobre a nossa empresa = lógico
+i) Uma média de três notas = inteiro
+j) A altura de uma pessoa em metros = real
+k) A altura de uma pessoa em centímetros = inteiro

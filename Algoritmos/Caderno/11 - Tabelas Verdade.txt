@@ -1,0 +1,89 @@
+| Tabelas Verdadeiro
+
+Ferramenta matemática para verificação de valores lógicos. Tem várias partes,
+mas vamos trabalhar 3
+
+* Negação (NÃO), sinal ~
+* Conjunção (E), sinal ^
+* Disjunção(OU), sinal v 
+
+Tabelas verdade trabalham com proposições(variáveis). Proposições geralmente são representados por letras
+
+--- Exemplos
+
+    p,q,r,s,t,a...
+
+Os únicos valores possíveis dessas proposições são V e F
+
+construindo...
+
+p^q 
+
+p | q | p^q
+V | V |  V
+V | F |  F                 Número de linhas = 2^h linhas
+F | V |  F                 2² = 4
+F | F |  F
+
+Importante: Para distribuir valores, dividimos o número de valores por 2 até preencher a tabela 
+
+p | q | r 
+V | V | V 
+V | V | F 
+V | F | V 
+V | F | F                  = 2³ = 8 (8 = linhas)
+F | V | V 
+F | V | F 
+F | F | V 
+F | F | F
+
+Construção só é verdadeira quando todos os valores são Verdadeiro; 
+Disjunção é falsa apenas quando todos os valores são falsos;
+
+pvq 
+
+p | q | pvq 
+V | V | V 
+V | F | V 
+F | V | V 
+F | F | F 
+
+| Exercícios  
+
+a) a^b 
+
+a | b | a^b 
+V | V |  V 
+V | F |  F                      2² = 4 linhas
+F | V |  F 
+F | F |  F 
+
+b) avb
+
+a | b | avb 
+V | V | F 
+V | F | V                       2² = 4 linhas 
+F | V | F 
+F | F | F
+
+c) avbvc 
+
+a | b | c | avb | avbvc 
+V | V | V |  V  |   V 
+V | V | F |  V  |   V 
+V | F | V |  V  |   V 
+V | F | F |  V  |   V 
+F | V | V |  V  |   V 
+F | V | F |  V  |   V 
+F | F | V |  F  |   V 
+F | F | F |  F  |   F
+
+* Ordem de Precedência 
+
+1º Parênteses 
+2º Negação
+3º Conjunção
+4º Disjunção 
+
+// Tinha mt mais exercício sobre tabela verdade, e a revisão para prova também, mas é muita coisa e eu 
+só quero ter a base aqui

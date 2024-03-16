@@ -1,0 +1,43 @@
+| Vetores 
+
+Variáveis de duas dimensões que armazenam múltiplos valores 
+
+-> Como criar um vetor 
+
+inteiro nome_da_variavel[5]
+cadeia nomes[3]
+cadeia nomes[3] = {"Hugunito","Zenzanto","Luizinho"}
+
+* leia 
+
+    leia(nomes[0])
+
+| Exercícios 
+
+a) Escreva um algoritmo que coloque na memória um vetor de 5 posições, contando os números 
+de 1 a 5 
+
+    inteiro numeros[5] = {1,2,3,4,5}
+
+b) Faça um vetor com 5 números e mprima na tela o 1º, o 3º e o 5º
+
+    inteiro num[5] = {10,20,30,40,50}
+    escreva(num[0])
+    escreva(num[2])
+    escreva(num[4])
+
+c) Receba do usuário 4 números e os coloque em um vetor. Em seguida, peça ao usuário qual dos 
+índices ele quer ver. Mostre o número colocando naquela posição 
+
+    inteiro num[4], n 
+    escreva("Digite o n1")
+    leia(num[0])
+    escreva("Digite o n2")
+    leia(num[1])
+    escreva("Digite o n3")
+    leia(num[2])
+    escreva("Digite o n4")
+    leia(num[3])
+    escreva("Qual índice você gostaria de ver?")
+    leia(n)
+    escreva(num[n])

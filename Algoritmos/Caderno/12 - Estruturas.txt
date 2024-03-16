@@ -1,0 +1,155 @@
+| Estruturas Condicionais 
+
+* SE 
+
+    SE (condicao) {
+            // código a ser executado
+    }
+
+--- Exemplo 
+
+    inteiro num = 8
+    SE(num > 10){
+            escreva("Menor que 10")
+    }
+    escreva("fim")
+
+* Operadores lógicos 
+
+Maior > 
+Menor <
+Maior ou igual >=
+Menor ou igual <=
+Igual == 
+Diferente !=
+
+* Operadores relacionais 
+
+E e 
+OU ou 
+Negação não 
+
+| Exercícios 
+
+a) Escreva um algoritmo que leia um múmero e escreva na tela caso seja maior que 20 
+
+    inteiro num
+    escreva("Escreva o número")
+    leia(num)
+    SE(num > 20){
+            escreva("Maior que 20")
+    }
+    escreva("fim")
+
+b) Escreva um algoritmo que leia dois valores numéricos inteiros e efetue a adição, caso o
+resultado seja maior que 10, imprima-o na tela 
+
+    inteiro num1, num2, res
+    escreva("Digite o número 1")
+    leia(num1)
+    escreva("Digite o número 2")
+    leia(num2)
+    res = num1+num2
+    SE (res > 10){
+            escreva("Maior que 10")
+    }
+    escreva("Fim")
+
+// Tinha mais uns 3, mas é só exercício, de novo, só quero ter a base, não necessariamente tudo
+
+| Exercícios SE, SENAO 
+
+a) Escreva um algoritmo para um radar de velocidade. O programa deve solicitar a velocidade do 
+veículo. Caso seja superior a 80, deve informar que o motorista foi multado. Caso contrário,
+deve informar que não houve multa 
+
+    inteiro velocidade 
+    escreva("Digite a velocidade")
+    leia(velocidade)
+    SE(velocidade > 80){
+            escreva("Multado")
+    }
+    SENAO{
+            escreva("Nã houve multa")
+    }
+
+b) Crie um algoritmo que receba dois números e informe metade do menor e o dobro do maior 
+
+    real n1,n2 
+    escreva("Digite o número 1")
+    leia(n1)
+    escreva("Digite o número 2")
+    leia(n2)
+    SE(n1<n2){
+            escreva("A metade do menor é", n1/2)
+    }
+    SENAO{
+            escreva("O dobro do maior é", n2*2)
+    }
+
+| Estruturas de repetição (loop)
+
+Estruturas que possuem o objetivo de executar trechos de códigos repetidas vezes em base em uma condição
+
+    enquanto(condição){
+            // código
+    }
+
+--- Exemplos 
+
+* Exemplo 1 (loop infinito)
+
+    inteiro x = 1
+    enquanto(x<5){
+            escreva(x)
+    }
+
+* Exemplo 2 (loop corrigido)
+
+    inteiro x = 1
+    enquanto(x<5){
+            escreva(x)
+            x = x+1
+    }
+
+| Exercícios 
+
+a) Monte um algoritmo que escreva na tela os números de 1 até 10 
+
+    inteiro x = 1
+    enquanto (x <= 10){
+            escreva(x)
+            x = x+1
+    }
+
+b) Monte um algoritmo que escrva na tela os números de 10 ate 1 e depois escreva "acabou"
+
+    inteiro x = 10
+    enquanto(x >=1){
+        escreva(x)
+        x = x-1
+    }
+    escreva("acabou")
+
+c) Crie um algoritmo para mostrar os números pares entre 1 e 50 
+
+    inteiro x = 0
+    enquanto(x < 50){
+                escreva(x)
+                x = x+2
+    }
+
+// Tinha mais uns 3, mas é só exercício, de novo, só quero ter a base, não necessariamente tudo
+
+* pós-incremento = contador + +
+* pós-decréscimo = contador - -
+
+| Estruturas de Repetição (para)
+
+    para(criação do contador ; condição ; pós-incremento)
+
+--- Exemplo 
+
+    para(i=1 ; i<=10 ; i++){
+        escreva(i)
+    }

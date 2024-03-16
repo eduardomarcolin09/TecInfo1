@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+div {
+    border: none;
+}    
+
+/* Topo */    
+
+#topo{
+    flex-grow:1;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.redd.it/v0h3nqn9a8sy.jpg');
+    background-size: cover;
+}
+
+#cabecalho{ 
+    height: 50px;
+}
+
+.container1{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 70px;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#btx{
+    font-family: 'Poppins', sans-serif;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.container2{
+    font-family: 'Poppins', sans-serif;
+    margin: 5px 10px;
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bt1{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+/* Corpo */
+
+#corpo {
+    flex-grow: 1;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 100px;
+    color: white;
+}
+
+#perfect{
+    color: aqua;
+}
+
+p{
+    font-size: 15px;
+    color: white;
+}
+
+.bt2{
+    border-color: aqua;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+/* Rodapé */
+
+#rodape{
+    text-align: center;
+    height: 180px;
+    background-color:black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container3{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.r1{
+    background-color: rgb(54, 52, 52);
+    padding-top: 2%;
+    height: 180px;
+}
+
+.r2{
+    background-color: black;
+    padding-top: 2%;
+    height: 180px;
+}

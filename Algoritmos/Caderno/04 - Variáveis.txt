@@ -1,0 +1,44 @@
+| Variáveis
+
+Variáveis são espaços na memória para armazenamento de dados
+
+--- Regrinhas para nomes de Variáveis
+
+* NUNCA começar com números;
+* NÃO conter espaços;
+* SEM caracteres especiaiss;
+
+--- Exemplos / Exercícios
+
+Leia um número e diga se é maior que 10
+
+1 - Leia abacate (leia = comando, abacate = variável)
+2 - SE anacate > 10
+3 - Escreva "5 não é maior que 10"
+    SENAO
+4 - Escreva "5 é menor que 10"
+
+Leia dois números e escreva o maior. Se não houver maior, não escreva nada
+
+1 - Leia x (leia = comando, x = variável)
+2 - Leia y (leia = comando, y = variável)
+3 - SE x>y
+4 - Escreva "x maior que 5"
+5 - SE y > x
+6 - Escreva "y maior que 5"
+
+| Operadores 
+
+* Soma (+)
+* Subtração(-)
+* Multiplicação (*)
+* Divisão(/)
+
+--- Exemplo / Exercício
+
+Leia dois números e escreva a média
+
+1 - Leia x
+2 - Leia y 
+3 - Escreva(x + y) / 2
+4 - Escreva "a média de x e y é 8"

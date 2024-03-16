@@ -1,0 +1,66 @@
+| Argumento
+
+Um argumento é uma sequência de proposições na qual uma delas é a conclusão e as demais são premissas
+
+* Proposições: sentenças afirmativas que podem ser verdadeiras ou falsas
+* Premissas: afirmações disponíveis
+
+As premissas justificam a conclusão
+
+--- Exemplos de argumentos
+
+* Todo aluno de computação precisa estudar lógica. (premissa)
+* José é aluno de computação. (premissa)
+* Logo, José precisa estudar lógica. (conclusão)
+
+-> Objetivo de um argumento
+
+O objetivo de um argumento é justificar uma afirmação que se faz, ou dar as razões para uma certa
+conclusão obtida
+
+--- Exemplo
+
+Você me traiu, pois disse que ia estudar e meu irmão a viu na festa
+
+Um argumento demostra/prova como, a partir dos dados de um problema, chegou-se a uma conclusão
+
+| Argumento: Raciocínio e inferência
+
+Para convencer que você sabe a resposta(que não é um chute), você tem que expor as razões que o
+levaram à conclusão (justificar)
+
+Pontos de partida }
+    |               }
+Caminhos seguindos   } Raciocínio ou proceso de inferência
+    |               }
+Conclusão         }
+
+Um argumento poderia ser considerado uma reconstrução explícita do raciocínio efetuado.
+
+| Inferência
+
+É a relação que permite passar das premissas para a conclusão
+
+O OBJETO de estudo da lógica é determinar se a conclusão de um argumento é ou não decorrente das premisssas
+
+| Validade de um argumento
+
+Em um ARGUMENTO VÁLIDO, as premissas são consideradas eveidentes da verdade da conclusão, caso contrário
+NÃO é VÁLIDO
+
+--- Exemplos
+
+* Exemplo 1: O argumento que segue é válido?
+
+    Se eu ganhar na loteria, serei rico.
+    Eu ganhei na lotaeria.
+    Logo, sou rico.
+
+É VÁLIDO (a conclusão é uma decorrência lógica das duas premissas)
+
+* Exemplo 2: O argumento que segue é válido?
+
+    Se eu ganhar na loteria, serei rico.
+    Eu não ganhei na loteria.
+    Logo, não sou rico.
+NÃO É VÁLIDO (a conclusão não é uma decorrência lógica das duas premissas)

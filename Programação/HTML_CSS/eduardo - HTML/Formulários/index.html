@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action="teste.php" method="post">
+        <!--01-->
+        <label>Nome</label>
+        <input type="text" name="nome" placeholder="Entre com o seu nome">
+    
+        <label>Sobrenome</label>
+        <input type="text" name="sobrenome" placeholder="Entre com seu sobrenome">
+        
+        <br> <br/>
+        
+        <!--02-->
+        <label>Nota</label>
+        <input type="number" name="nota" min="0" max="10" step="0.1">
+        
+        <br> <br/>
+        
+        <!--03-->
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Entre com seu email"> 
+
+        <br> <br/>
+       
+        <!--04-->
+        <label>Cor</label>
+        <input type="color" name="cor" placeholder="Escolha a cor">
+      
+        <br> <br/>
+        
+        <!--05-->
+        <label>Data de nascimento</label>
+        <input type="date" name="data" placeholder="Coloque sua data de Nascimento">
+        <label>Descrição</label>
+        <textarea name="descricao" cols="30" rows="10"></textarea>
+
+        <br> <br/>    
+        
+        <!--06-->
+        <label>Hora</label>
+        <input type="time" name="Hora" step="900">
+
+    <br> <br/>    
+
+        <!--07-->
+        <label>Senha</label>
+        <input type="password" name="senha" placeholder="Entre com a sua senha">
+
+        <br> <br/>
+    
+        <!--08-->
+        <label>Qual nota você indica para este estabelecimento?</label>
+        <input type="range" name="estrelas" min="0" value="2" step="1" max="10">
+
+        <br> <br/>
+
+        <!--09-->
+        <label></label>
+        <input type="hidden" name="id">
+
+        <br> <br/>
+        
+        <!--10-->
+        <label>Arquivos/fotos</label>
+        <input type="file" name="arquivos">
+
+        <br> <br/> 
+    
+        <!--11-->
+        <input type="checkbox" name="opcoes[]">
+        <label for="Revistas">Revistas</label>
+        <br> <br/>
+        <input type="checkbox" name="opcoes[]">
+        <label id="Jornais">Jornais</label>
+        <br> <br/>
+        <input type="checkbox" name="opcoes[]">
+        <label>Televisão</label>
+        <br> <br/>
+        <input type="checkbox" name="opcoes[]">
+        <label>Redes Sociais</label>
+
+        <br> <br/>
+    
+        <!--12-->
+        <labe>Autorização</labe>
+        <br> <br/>
+        <input type="checkbox" name="liEdital"> Eu li e concordo
+        <br> <br/>
+        Você estuda no IFRS?
+        <input type="radio" name="estuda" value="S"/> Sim
+        <input type="radio" name="estuda" value="N"/> Não
+
+        <br> <br/>
+
+        <!--13-->
+        <input type="button" value="Clique aqui">
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar dados">
+    
+        <button type="button">Clique aqui</button> <!--mais fácil de usar/mais usado-->
+
+        <!--Existe duas exceções do input, que são p/ marcar, que é o checkbox e o rades,o checkbox marca mais que um, o rades pode marcar todas-->
+
+        <h5>Permitir que o usuário selecione apenas uma opção</h5>
+        <ul type="none">
+            <li>
+                <input id="manha" type="radio" name="turno" value="manhã"/>  <label for="manha">Manhã</label>
+            </li>
+            <li>
+                <input type="radio" name="turno" value="tarde"/> <label>Tarde</label>
+            </li>
+            <li>
+                <input type="radio" name="turno" value="noite"/> <label>Noite</label>
+            </li>
+        </ul>
+        <h5>Escolha um curso</h5>
+        <ul type="none">
+            <li>
+                <input type="radio" name="curso" value="info"> <label>Info</label>
+            </li>
+            <li> <input type="radio" name="curso" value="agro"> <label>Agro</label>
+            </li>
+        </ul>
+
+        <br> <br/>
+         
+        <h5>Permitir que o usuário selecione mais de uma opção</h5>
+        <ul type="none">
+            <li>
+                <input id="mat" type="checkbox" name="disciplinas[]" value="MAT"> <label for="mat">Matemática</label>
+            </li>
+            <li>
+                <input type="checkbox" checked name="disciplinas[]" value="POR"> <label>Porutuguês</label>
+            </li>
+            <li>
+                <input type="checkbox"  checked name="disciplinas[]" value="QUI"> <label>Química</label>
+            </li>
+            <li>
+                <input type="checkbox" name="disciplinas[]" value="FIS"> <label>Física</label>
+            </li>
+        </ul>
+    
+        <!--Fim dos inputs-->
+        <br> <br/>
+
+        <label>Descrição</label>
+        <textarea name="descricao" id="" cols="30" rows="10"></textarea>
+        
+        <br> <br/>
+    
+        <select name="estados">
+            <option value="-1">Selecione</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RJ" disabled>Rio de Janeiro</option>
+            <option value="Sp">São Paulo</option>
+        </select>
+
+        <br> <br/>
+    
+        <fieldset>
+            <legend> Endereços </legend>
+            <ul type="none">
+                <li>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </li>
+                <li>
+                    <label for="numero">Número</label>
+                    <input type="text" name="numero" id="numero">
+                </li>
+                <li>
+                    <label for="cidade">Cidade</label>
+                    <input type="text" name="cidade" id="cidade">
+                </li>
+                <li>
+                    <label for="estado">Estado</label>
+                    <select id="estado" name="estados[]" multiple>
+                        <!--<option value="-1">Selecione</option>-->
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RJ" disabled>Rio de Janeiro</option>
+                        <option value="Sp">São Paulo</option>
+                    </select>
+                </li>
+                
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend> Formulário</legend>
+            <ul type="none">
+                <li>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Entre com seu nome">
+                </li>
+                <li>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Entre com seu email">
+                </li>
+                <li>
+                    <label for="numero">Número</label>
+                    <input type="tel" name="numero" placeholder="Entre com seu número">
+                </li>
+                <li>
+                    <label>Idade</label>
+                    <input type="number" name="idade" placeholder="Sua idade">
+                </li>
+                <li>
+                    <label>Sexo:</label>
+                    <br> <br/>
+                    <input type="radio" name="sexo" value="masculino"> <label>Masculino</label> <input type="radio" name="sexo" value="feminino"> <label>Feminino</label>
+                </li>
+                <li>
+                    <h5>Tipo de navegador utilizado</h5>
+                </li>    
+                <li>
+                    <input id="mat" type="checkbox" name="navegador[]" value="Chrome"> <label for="mat">Google Chrome</label> <input type="checkbox" checked name="navegador[]" value="Explorer"> <label>Internet Explorer</label> <input type="checkbox"  checked name="navegador[]" value="Firefox"> <label>Firefox</label> <input type="checkbox" name="navegador[]" value="Safari"> <label>Safari</label> <input type="checkbox" name="navegador[]" value="outros"> <label>Outros</label>
+                </li>
+                <li>
+                    <h5>Mensagem:</h5>
+                </li>
+                <li>
+                    <textarea placeholder="Digite sua mensagem..."></textarea>
+                </li>
+                <li>
+                    <input type="submit" value="Enviar dados"> <input type="reset" value="Limpar">
+                </li>   
+        </ul>
+    </form>
+</body>
+</html>

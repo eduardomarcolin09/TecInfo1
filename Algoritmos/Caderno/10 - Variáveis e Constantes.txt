@@ -1,0 +1,8 @@
+| Variáveis e Constantes
+
+const inteiro nome_da_constante = 100
+
+const = constante 
+inteiro = tipo
+nome_da_constante = nome
+100 = valor

@@ -1,0 +1,68 @@
+
+
+/* Tabelas - Classificação */
+
+#tabelas{
+    height: 200px;
+    width: 400px;
+    margin: 0 auto;
+    border-color: aqua;
+}
+
+#bodyc{
+    background-size: cover ;
+    background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwcNCAgNBwcHBwgIBw0HBwcHBw8ICQcNFREWFhUREx8YHSggGBoxGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDQ0NFw0NDysZFRkrKzctKystKysrKysrKysrKysrKystKysrKysrKysrKysrKy0rKysrKysrNysrKysrK//AABEIALwBDAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAABAAIGBf/EABYQAQEBAAAAAAAAAAAAAAAAAAABEf/EABoBAQEBAQEBAQAAAAAAAAAAAAMBAgcFAAb/xAAVEQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEQMRAD8A95JP1TmqST58maQ+akALKlkVCFUsioQqlkVZLNUkioQaLIhVQpZEzTQpZAkFJIAazVLIqKqGiyIKhSyKhCqSRVkiqWQJBSSOhSTz3O0CzXyyIIKWRCoKSRCqhSyAVUVSyKhBSyIIVokgopClkAQUsiCClkVCoUkgoIUsgFNDRZADWapJEElLIKCFJI6JIPOc5VCD5uQAs1SyIUstFkQqFUkgFIUsgBClkFCClkVCoUkiCFaLIBTWVLIhUKpZEEKpJEKhVLIqKg0WRBB8SRBDVLI6RmmsvOc3kVCFUkioQqlkVCFUsgoqDRZEFQpJEKqFLIqyQpZACFLIAgpJEEGiyBIVSyKhCqWQUEKSQJBSyAEKSQJBSyOjCoec5vImaaFLImSKpZBQqKpJEEK0WRBCqWQUIKSRBBSyIIVSyKsmhSyAVJSSAVVNFkFCClkVCCkkVCFUsioqClkQSUkjogg85zeRCqhSyIVBSyAIKWRAiqSQUIVSyIINFkTJoUsgoQUkiCFUsiFQUsiFVDRJFRVQpZEFQ+LIgg0SRBCqWRUIKSR0dCFea5xIhUKpJBQg0WRBBSyIVUVSyAFlSSIKhSyIVBosiZNCkkTJFUsioQqlkALNUkiBClkALKlkQSUkgCVaLIAkpZHR1ksvNc3kVZIUsgBCkkCTNaLIhUFLIghVLIggpJBQhVLIhUmiyAKhSyKhBSSIIVSyIIVSSIIKWRBBSyIIKSRBJSyOiZprLznN5EEFLIglVLIKKgpJACK0WQUFlSyIVBSyIIKSRBBSyIVUNFkApCkkTJClkTJClkAIqkkApClkAIUsiCCkkdEEHnObyIIKWRM00KWQBBSyIKiqSRCoNFkTNNZUsioIUsgoLNUkioVClkQLKkkQQUsiCClkQQaLIqEFJIglVLIKElJI6Ggh5znEgFLKkkVCClkQQqlkAIqlkFCDRJEEFLIgqKpZFQqFJIggpZEFQpZEEFJIhVQpZEEFLIqEGiyIVUPiSIarQpZHRBCvOc3kVZpFaLIAWVJIghVLIhUFLIqyRVLIhVQpJEyaGiyCg0KSQA0KWQAsqWRAhSyAEVSSAU0KWQJCqWQClmqSRJBSyP/Z);
+}
+
+/* Página Inicial - Home */
+#cdm{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#txt1{
+    text-align: center;
+}
+
+#topo{
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/vetores-premium/fundo-da-copa-do-mundo-de-futebol-para-banner-campeonato-de-futebol-de-2022-no-qatar_29865-3051.jpg?w=2000);
+}
+
+#cabecalho{
+    height: 50px;
+    margin: 5px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#botao1{
+    border-color:white;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+
+#trofeu{
+    text-decoration: none;
+}
+
+.botoes{
+    border: none;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.container1{
+    margin: 5px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+

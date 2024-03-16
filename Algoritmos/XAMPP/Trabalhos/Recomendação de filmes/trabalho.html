@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Recomendação de Filmes</title>
+</head>
+<body>
+    <!--
+        Trabalho feito por: Eduardo Marcolin e João Duarte
+        Turma: 1º Informática
+    -->
+    <h1>Recomendação de Filmes</h1>
+    <p>Escolha os critérios para receber uma recomendação</p>
+    
+    <form action="trabalho.php" method="get">
+       <select name="genero" id="genero">
+            <option value="g1">Ação</option>
+            <option value="g2">Aventura</option>
+            <option value="g3">Comédia</option>
+            <option value="g4">Drama</option>
+            <option value="g5">Fantasia</option>
+            <option value="g6">Ficção Científica</option>
+            <option value="g7">Terror</option>
+        </select>
+        <p>
+            <input type="checkbox" name="internacional" id="internacional">
+            <label for="internacional">Quero ver um filme internacional</label>       
+        </p>
+        <input type="submit" value="O que devo assistir?">        
+    </form>
+</body>
+</html>

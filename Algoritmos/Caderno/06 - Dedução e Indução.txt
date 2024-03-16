@@ -1,0 +1,48 @@
+| Dedução e Indução
+
+A lógica dispõe de duas ferramentas, que podem ser utilizadas pelo pensamento na busca de novos
+conhecimentos: a dedução e a indução, que se dão origem a dois tipos de argumentos:
+
+-> Argumentos DEDUTIOS:
+
+Os argumentos dedutivos pretendem que suas premissas forneçam uma prova conclusiva da veracidade da conclusão,
+podem ser:
+
+* Válidos - quando suas premissas, se verdadeiras, fornecem provas convincente para a conclussão. Isto é,
+se as premissas forem verdadeira, é impossível que a conclusão seja falsas
+
+--- Exemplo:
+
+    Todo homem é mortal.
+    Sócrates é um homem.
+    Logo, Sócrates é mortal.
+
+* Inválidos - Não se verifica a característica anterior
+
+--- Exemplo 
+
+    Ele toca piano ou violão
+    Ele toca piano
+    Logo, ele não toca violão
+
+-> Argumentos INDUTIVOS
+
+Os argumentos indutivos não pretendem que suas premissas forneçam provas cabais da veracidade da conclusão,
+mas apenas que forneçam indicações dessa veracidade (possibilidades, probabilidades)
+Os termos VÁLIDOS e INVÁLIDOS não se aplicam para os argumentos indutivos. Eles são avaliados de acodo com
+com a maior ou a menor probabilidade com que suas conclusões sejam estabelecidas 
+
+--- Exemplos
+
+* Exemplo 1:
+
+    A vacina funcionou bem nos ratos.
+    A vacina funcionou bem nos macacos.
+    Logo, vai funcionar bem nos humanos.
+
+* Exemplo 2:
+
+    80% dos entrevistados vão votar no candidato x.
+    Logo, o candidato x vai vencer as eleições
+
+A lógica formal clássica só estuda Argumentos Dedutivos, verificando se são ou não válidos.

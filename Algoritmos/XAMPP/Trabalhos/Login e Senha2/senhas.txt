@@ -1,0 +1,1 @@
+{"rafael":"$2y$10$sBI3r9HWw2tU69MOBJHdhe35xYxTtPZA\/0mwW9GefwCFA\/KKFt5TK","fulano":"$2y$10$FpJxyDPjVkRGMjuEiXSh\/e4uGuFv.6HclUWfXh4tL2hhmiw7NMCzG","ravi":"$2y$10$90dZ7ATjChbhleG2NEZPh.P1ggf7vP.OcT2CAnDuDahjcnvn9J7bK","matilde":"$2y$10$SrAmB9oKXCvfxuHkGlU9yulICWIdgmfnxxrgoR\/6ijsh4cs7P8dRm"}

@@ -1,0 +1,33 @@
+| Funções 
+
+- Encapsulamento de um conjunto de código;
+- Pode receber parâmetros;
+- Serve para reutilizar e/ou organizar o código;
+
+-> Como criar uma função 
+
+    funcao tipo_retorno nome_da_funcao (parametros){
+            // Programação da função 
+            retorne algum_valor
+    }
+
+| Exercícios 
+
+a) Construa uma função que receba um valor inteiro e retorne o dobro desse valor 
+
+    funcao inteiro dobro(inteiro numero){
+        numero = numero*2
+        retorne numero
+    }
+    escreva(dobro(10))
+
+b) Crie uma função que receba dois valores, o valor de uma compra e o quarto foi recebido do cliente.
+Retorne o troco 
+
+    funcao real troco(real_compra, real_recebido){
+            real troco = real_compra - real_recebido 
+            retorne troco 
+    }
+    inteiro x = 20
+    inteiro y = 10
+    escreva(troco(x,y))

@@ -1,0 +1,23 @@
+p {
+    color: red; 
+    background-color: blue 
+    }
+    #primeiro {
+        color: green;
+        background-color: yellow;
+    }
+    p.texto {
+        color: orange;
+        background-color: yellow;
+    }
+    body {
+        background-color: white;
+    }
+
+    img {
+        border: solid 1px red;
+        border-radius: 50%;
+        background-color: azure;
+        padding: 20px;
+    }
+    

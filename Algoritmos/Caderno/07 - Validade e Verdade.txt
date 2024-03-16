@@ -1,0 +1,49 @@
+| Validade e Verdade 
+
+* Verdade e Falsidade - são propriedades das proposições, nunca dois argumentos
+* Validade ou Invalidade - são propriedades dos argumentos dedutivos que dizem respeito à inferência
+ser ou não válida.
+
+--- Exemplos
+
+* Exemplo 1
+
+    Toda baleia é um mamífero (V)
+    Todo mamífero tem pulmões (V)
+    Logo, toda baleia tem pulmões (V)
+
+Argumento válido e a conclusão verdadeira
+
+* Exemplo 2
+
+    Toda aranha tem seis pernas (F)
+    Todo ser de seis pernas tem asas (F)
+    Logo, toda aranha tem asas (F)
+
+Argumento válido e a conclusão falsa
+
+=-=-=-=-=-=
+
+- Os conceitos de argumento válido ou inválido são independentes da verdade ou falsidade de
+suas premissas e conclusões;
+
+- Qualquer combinação de valores verdade entre as premissas e a conclusão é possível, exceto
+que nenhum argumento dedutivo válido tenha as premissas verdadeiras e a conclusão falsa;
+
+- Um argumento dedutivo no qual as premissas são verdadeiras é dito argumento correto, evidentemente
+sua conclusão também é verdadeira;
+
+| Lógica Clássica e Lógica Simbólica 
+
+* Lógica Informal - formula os argumentos com linguagem natural, mas enfrenta problemas de ambiguidade
+e de construções confusas
+
+--- Exemplo
+
+    A cadela da vazinha fugiu (quem fugiu?)
+
+* Lógica Simbólica ou Matemática - utiliza simbolos de origem matemática para formular os argumentos
+
+--- Exemplo
+
+    Trabalho iniciado pelo matemático inglês George Boole (1815-1804)
