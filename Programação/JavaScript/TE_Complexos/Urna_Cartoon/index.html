@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body onkeyup="tecla(event)">
+    <p id="titulo">Simulador - Eleição Cartoon Network (2022)</p>
+    <div id="boxcandidatos">
+        <p id="titulo2">Partido dos<br>desenhos animados</p>
+        <div>
+            20<br>
+            <img src="./Candidato/Mordecai - Apenas um Show.jpg" alt="Mordecai" width="125" height="150" class="imagem1">
+            <br>Mordecai<br>Apenas um Show
+        </div>
+        <div>
+            89<br>
+            <img src="./Candidato/Gumball - Gumball e Darwin Wattson.jpg" alt="Gumball" width="125" height="150" class="imagem1">
+            <br>Gumball<br>O incrível mundo de Gumball
+        </div>
+        <div>
+            17<br>
+            <img src="./Candidato/Finn - Hora da Aventura.jpg" alt="Finn" width="125" height="150" class="imagem1">
+            <br>Finn<br>Hora da Aventura
+        </div>
+    </div>
+    <br>
+    <div id="boxgeral">
+        <div id="tela">
+            <p id="titulo3">Justiça Animada</p>
+            <p id="titulo4">Presidente da Cartoon Network</p>
+            <div id="quadrados">
+                <div id="bt1"></div>
+                <div id="bt2"></div>
+            </div>
+                <img id="fotoc">
+            <div class="np"> 
+                <div id="nomec"></div>
+                <div id="partidoc"></div>
+            </div>
+        </div>
+            <div id="teclado">
+                <div><img id="img3" src="imagem/Cartoon_Network_2010_logo.svg.png " alt="Justiça Eleitoral"  width="400px" height="200px"></div>
+                <button type="button" class="numeros" onclick="num(1)">1</button>
+                <button type="button" class="numeros" onclick="num(2)">2</button>
+                <button type="button" class="numeros" onclick="num(3)">3</button>
+                <br>
+                <button type="button" class="numeros" onclick="num(4)">4</button>
+                <button type="button" class="numeros" onclick="num(5)">5</button>
+                <button type="button" class="numeros" onclick="num(6)">6</button>
+                <br>
+                <button type="button" class="numeros" onclick="num(7)">7</button>
+                <button type="button" class="numeros" onclick="num(8)">8</button>
+                <button type="button" class="numeros" onclick="num(9)">9</button>
+                <br>
+                <button type="button" class="numeros" onclick="num(0)" >0</button>
+                <br>
+                <button type="button" class="botoes" onclick="anular()">BRANCO</button>
+                <button type="button" class="botoes" onclick="corrigir()">CORRIGE</button>
+                <button type="button" class="botoes" onclick="confirmar()">CONFIRMA</button>
+            </div>  
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
